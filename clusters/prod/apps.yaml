@@ -1,5 +1,5 @@
 apiVersion: kustomiza.toolkit.fluxcd.io/v1
-king: Kustomization
+kind: Kustomization
 metadata:
   name: apps
   namespace: flux-system
