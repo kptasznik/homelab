@@ -1,4 +1,4 @@
-apiVersion: kustomiza.toolkit.fluxcd.io/v1
+apiVersion: kustomization.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
   name: apps
