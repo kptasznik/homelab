@@ -22,7 +22,7 @@ spec:
               name: linkding-data
       volumes:
         - name: linkding-data
-          PersistenVolumeClaim:
+          PersistentVolumeClaim:
             claimName: linkding-data
         
 
