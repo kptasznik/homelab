@@ -14,7 +14,7 @@ A fully automated, GitOps-managed Kubernetes cluster running on Proxmox and Rock
 ###  Stack
 - **Hypervisor**: Proxmox
 - **Base OS**: Rocky Linux
-- **Container Orchestration**: Kubernetes
+- **Container Orchestration**: Kubernetes (k3s)
 - **GitOps Engine**: Flux CD
 
 
