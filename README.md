@@ -4,7 +4,7 @@
 ![Rocky](https://img.shields.io/badge/-Rocky%20Linux%209-%2310B981?style=for-the-badge&logo=rockylinux&logoColor=white)
 ![GitOps](https://img.shields.io/badge/GitOps-yellow.svg?style=for-the-badge)
 
-A fully automated, GitOps-managed Kubernetes cluster running on Lenovo ThinkCentre hardware and Talos Linux.
+A fully automated, GitOps-managed Kubernetes cluster running on Proxmox VMs and Rocky Linux.
 
 ## 🏗️ Infrastructure Overview
 
