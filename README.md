@@ -14,7 +14,7 @@ A fully automated, GitOps-managed Kubernetes cluster running on Lenovo ThinkCent
 ###  Stack
 - **Hypervisor**: Proxmox
 - **Base OS**: Rocky Linux
-- **Container Orchestration**: Kubernetes
+- **Container Orchestration**: Kubernetes (k3s)
 - **GitOps Engine**: Flux CD
 
 
@@ -24,19 +24,6 @@ A fully automated, GitOps-managed Kubernetes cluster running on Lenovo ThinkCent
 - **Declarative Configuration**: Everything-as-code philosophy
 - **Automated Deployments**: Changes to this repository automatically sync to the cluster via Flux CD
 
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Working knowledge of Kubernetes
-- Access to similar hardware or VMs
-- Basic understanding of GitOps principles
-
-### Initial Setup
-1. Clone this repository
-2. Configure your Talos Linux nodes
-3. Deploy Argo CD
-4. Configure the App of Apps
 
 ## 🔄 Continuous Deployment
 
