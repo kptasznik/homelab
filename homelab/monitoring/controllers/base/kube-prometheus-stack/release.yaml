@@ -34,5 +34,6 @@ spec:
     ingress:
       enabled: true
       ingressClassName: traefik
-      hosts: grafana.kptasznik.net
+      hosts:
+        - grafana.kptasznik.net
       tls: []
