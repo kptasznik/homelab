@@ -31,9 +31,10 @@ spec:
   values:
     grafana:
       adminPassword: konrad
-    ingress:
-      enabled: true
-      ingressClassName: traefik
-      hosts: grafana.kptasznik.net
-      tls: []
+      ingress:
+        enabled: true
+        ingressClassName: traefik
+        hosts:
+          - grafana.kptasznik.net
+        tls: []
 
