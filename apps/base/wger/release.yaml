@@ -19,6 +19,9 @@ spec:
   values:
     ingress:
       enabled: true
-      ingressClassName: traefik  
+      ingressClassName: traefik
       url: wger.kptasznik.net
-       
+    django:
+      settings:
+        WGER_REQUIRE_LOGIN: false
+        WGER_REGISTRATION_OPEN: true
