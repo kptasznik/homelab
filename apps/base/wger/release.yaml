@@ -19,10 +19,6 @@ spec:
   values:
     ingress:
       enabled: true
-      ingressClassName: traefik  # lub inna, np. traefik, jeśli używasz innego kontrolera
+      ingressClassName: traefik  
       url: wger.kptasznik.net
-          # <- ustaw domenę, którą obsłuży Ingress
-              #tls:
-       # - hosts:
-          #  - wger.local
-         # secretName: wger-tls
+       
