@@ -68,7 +68,7 @@ data:
   config.yaml: |
     # Name of the tunnel you want to run
     
-    tunnel: ldmsi
+    tunnel: linkding
 
     credentials-file: /etc/cloudflared/creds/credentials.json
 
