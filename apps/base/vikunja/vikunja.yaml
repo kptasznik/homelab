@@ -34,7 +34,7 @@ spec:
             - name: VIKUNJA_SERVICE_PUBLICURL
               value: "http://vikunja.kptasznik.net"
             - name: VIKUNJA_DATABASE_HOST
-              value: postgres.default.svc.cluster.local
+              value: postgres.vikunja.svc.cluster.local
             - name: VIKUNJA_DATABASE_PASSWORD
               value: changeme
             - name: VIKUNJA_DATABASE_TYPE
