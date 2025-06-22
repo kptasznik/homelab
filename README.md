@@ -56,10 +56,10 @@ This cluster runs a curated suite of self-hosted applications, deployed via Flux
 | Application | Description                  | Stack & Features                |
 |-------------|------------------------------|----------------------------------|
 | **Linkding** | Bookmark manager             | PVC, Secrets, Reverse Proxy     |
-|          |                              | cloudflare tunnel               |
 | **Mealie**   | Self-hosted recipe manager   | Ingress, Persistent Storage     |
 | **Vikunja**  | Project/task management      | Postgres backend, Ingress       |
 | **Wger**     | Fitness & workout tracker    | Deployed via HelmRelease        |
+| **Commafeed**| Self-hosted rss-feed manager | Ingress, Persistent Storage     |
 
 ---
 
