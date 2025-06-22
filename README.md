@@ -2,7 +2,12 @@
 
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Rocky](https://img.shields.io/badge/-Rocky%20Linux%209-%2310B981?style=for-the-badge&logo=rockylinux&logoColor=white)
+![Alma](https://img.shields.io/badge/Distribution-AlmaLinux-blueviolet)
+
 ![GitOps](https://img.shields.io/badge/GitOps-yellow.svg?style=for-the-badge)
+
+![Nginx](https://img.shields.io/badge/nginx-269539?style=for-the-badge&labelColor=black&logo=nginx&logoColor=white)
+
 
 A fully automated, GitOps-managed Kubernetes cluster running on Proxmox and Rocky Linux VMs.
 
