@@ -40,7 +40,7 @@ All K3s nodes run **Rocky Linux** and were joined to the cluster using `k3sup`. 
 - **GitOps-First Approach**: All cluster configurations and applications are managed through Git using the App of Apps pattern
 - **Declarative Configuration**: Everything-as-code philosophy
 - **Automated Deployments**: Changes to this repository automatically sync to the cluster via Flux CD
-
+- **Secret Management**: Secret management using **SOPS**, encrypted with **age**, stored in git, decrypted autoamatically by flux controller
 
 ## 🔄 Continuous Deployment
 
