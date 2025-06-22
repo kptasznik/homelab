@@ -27,7 +27,7 @@ The infrastructure consists of multiple virtual machines provisioned in Proxmox 
 
 All K3s nodes run **Rocky Linux** and were joined to the cluster using `k3sup`. The setup uses **Traefik** as an ingress controller and loadbalancer, and uses GitOps for full automation.
 
-### 🛠️ Supporting Virtual Machines (Non-K8s)
+### 🛠️ Other Virtual Machines (Non-K8s)
 - **AlmaLinux (Zabbix)** – Zabbix monitoring 
 - **AlmaLinux (Jenkins)** – Jenkins server with **reverse proxy and SSL** (via Nginx and Let's Encrypt)
 - **2x AlmaLinux (HA Cluster)** – High-availability pair using **Corosync + Pacemaker**, used for testing and highly available external services
