@@ -63,4 +63,23 @@ This cluster runs a curated suite of self-hosted applications, deployed via Flux
 
 ---
 
+## 📁 Repository Structure
+
+```text
+├── README.md
+├── apps/                   # Application definitions
+│   ├── base/               # Base manifests for all apps
+│   └── prod/               # Environment-specific patches, secrets
+├── clusters/
+│   └── prod/               # Cluster-specific Flux setup
+│       ├── apps.yaml       # Declares Kustomizations for all apps
+│       ├── monitoring.yaml # Monitoring stack
+│       └── flux-system/    # Flux bootstrap config
+├── monitoring/             # Monitoring system definitions
+│   ├── configs/            # TLS, dashboards
+│   └── controllers/        # HelmRelease, repos for monitoring stack
+
+```
+
+---
 🔍 **Note**: This is a living document. As the cluster evolves, so will this documentation.
