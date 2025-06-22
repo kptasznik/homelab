@@ -49,4 +49,18 @@ This repository uses Flux CD to automatically sync changes to the cluster. The A
 
 ---
 
+## 📦 Deployed Applications
+
+This cluster runs a curated suite of self-hosted applications, deployed via Flux CD and managed with Kustomize:
+
+| Application | Description                  | Stack & Features                |
+|-------------|------------------------------|----------------------------------|
+| **Linkding** | Bookmark manager             | PVC, Secrets, Reverse Proxy     |
+|          |                              | cloudflare tunnel               |
+| **Mealie**   | Self-hosted recipe manager   | Ingress, Persistent Storage     |
+| **Vikunja**  | Project/task management      | Postgres backend, Ingress       |
+| **Wger**     | Fitness & workout tracker    | Deployed via HelmRelease        |
+
+---
+
 🔍 **Note**: This is a living document. As the cluster evolves, so will this documentation.
