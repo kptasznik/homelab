@@ -17,6 +17,15 @@ A fully automated, GitOps-managed Kubernetes cluster running on Proxmox and Rock
 - **Container Orchestration**: Kubernetes (k3s)
 - **GitOps Engine**: Flux CD
 
+## 💻 Virtual Machine Architecture
+
+The infrastructure consists of multiple virtual machines provisioned in Proxmox and categorized by role:
+
+### 🧩 Kubernetes Cluster (K3s)
+- **k3s-master-01** – Control plane node running Kubernetes API server, controller-manager, scheduler, and etcd (or external DB)
+- **k3s-worker-01, k3s-worker-02, k3s-worker-03** – Worker nodes that host all pods and workloads
+
+All K3s nodes run **Rocky Linux** and were joined to the cluster using `k3sup`. The setup uses **Traefik** as an ingress controller and loadbalancer, and uses GitOps for full automation.
 
 ## 🌟 Key Features
 
