@@ -1,0 +1,34 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: audiobookshelf-config
+namespace: audiobookshelf 
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: audiobookshelf-metadata
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: audiobookshelf-audiobooks
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+
