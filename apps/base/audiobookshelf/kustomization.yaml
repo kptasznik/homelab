@@ -3,6 +3,7 @@ kind: Kustomization
 namespace: audiobookshelf
 resources:
   - namespace.yaml
+  - configmap.yaml
   - deployment.yaml
   - pvc.yaml
   - svc.yaml 
