@@ -27,7 +27,7 @@ spec:
             - mountPath: /metadata
               name: audiobookshelf-metadata
             - mountPath: /audiobooks
-              name: audiobookshelf-audiobooks
+              name: audiobookshelf-audiobook
           ports:
             - containerPort: 3005
       volumes:
