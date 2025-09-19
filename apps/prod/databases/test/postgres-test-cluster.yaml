@@ -18,7 +18,7 @@ spec:
       node-role.kubernetes.io/postgres: ""
     tolerations:
     - key: node-role.kubernetes.io/postgres
-      operator: Equal
+      operator: Exists
       effect: NoSchedule
   storage:
     size: 1Gi
