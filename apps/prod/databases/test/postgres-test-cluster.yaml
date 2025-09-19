@@ -19,9 +19,9 @@ spec:
           - matchExpressions:
               - key: node-role.kubernetes.io/postgres
                 operator: Exists
-    tolerations:
-    - key: node-role.kubernetes.io/postgres
-      operator: Exists
-      effect: NoSchedule
+  tolerations:
+  - key: node-role.kubernetes.io/postgres
+    operator: Exists
+    effect: NoSchedule
   storage:
     size: 1Gi
