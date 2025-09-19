@@ -12,4 +12,4 @@ spec:
     - protocol: TCP
       port: 8082 # Port the service will listen on (outside the cluster)
       targetPort: 8082 # Port on the pod the service will forward to
-  type: LoadBalancer # Or NodePort, ClusterIP, or Ingress
+  type: ClusterIP
