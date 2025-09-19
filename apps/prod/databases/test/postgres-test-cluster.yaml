@@ -13,11 +13,15 @@ spec:
       secret:
         name: app-secret
   affinity:
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+          - matchExpressions:
+              - key: node-role.kubernetes.io/postgres
+                operator: Exists
     tolerations:
     - key: node-role.kubernetes.io/postgres
       operator: Exists
       effect: NoSchedule
-    nodeSelector:
-      node-role: postgres
   storage:
     size: 1Gi
