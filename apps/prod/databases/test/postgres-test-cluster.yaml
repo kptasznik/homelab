@@ -13,9 +13,8 @@ spec:
       secret:
         name: app-secret
   affinity:
-    enablePodAntiAffinity: true
+    enablePodAntiAffinity: false
     topologyKey: kubernetes.io/hostname
-    podAntiAffinityType: required
     nodeSelector:
       node-role.kubernetes.io/postgres: ""
     tolerations:
