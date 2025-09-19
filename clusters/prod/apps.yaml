@@ -10,9 +10,13 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./apps/prod
+  path:
+    - ./apps/prod
   prune: true
   decryption:
     provider: sops
     secretRef:
       name: sops-age
+
+
+
